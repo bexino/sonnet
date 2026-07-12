@@ -5,7 +5,7 @@ author: "bexino"
 author_url: "https://github.com/bexino"
 thumbnail: "sonnet.png"
 category: "theme"
-download: "https://github.com/你的GitHub用户名/typora-claude-theme/archive/refs/heads/main.zip"
+download: "https://github.com/bexino/sonnet/archive/refs/heads/main.zip"
 ---
 
 # Sonnet
