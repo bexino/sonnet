@@ -1,13 +1,3 @@
----
-layout: post
-title: "Sonnet"
-author: "bexino"
-author_url: "https://github.com/bexino"
-thumbnail: "sonnet.png"
-category: "theme"
-download: "https://github.com/bexino/sonnet/archive/refs/heads/main.zip"
----
-
 # Sonnet
 
 A Typora theme inspired by Anthropic's design philosophy.
