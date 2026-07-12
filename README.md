@@ -36,4 +36,4 @@ A Typora theme inspired by Anthropic's design philosophy.
 
 ## Notes
 
-- This project is based on https://github.com/blaxisomu/Claude-Typora.
+- This project is based on https://github.com/blaxisomu/typora_claude.
