@@ -12,8 +12,6 @@ download: "https://github.com/bexino/sonnet/archive/refs/heads/main.zip"
 
 A Typora theme inspired by Anthropic's design philosophy.
 
-<img width="500" height="400" alt="500" src="https://github.com/user-attachments/assets/9488c002-829f-42c9-b60f-3adb7f9047a9" />
-
 ## What's New
 
 - **Sidebar Outline:** Refined the visual hierarchy and spacing of the outline panel.
