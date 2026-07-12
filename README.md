@@ -1,4 +1,4 @@
----
+--
 layout: post
 title: "Sonnet"
 author: "bexino"
@@ -11,6 +11,8 @@ download: "https://github.com/你的GitHub用户名/typora-claude-theme/archive/
 # Sonnet
 
 A Typora theme inspired by Anthropic's design philosophy.
+
+<img width="500" height="400" alt="500" src="https://github.com/user-attachments/assets/9488c002-829f-42c9-b60f-3adb7f9047a9" />
 
 ## What's New
 
