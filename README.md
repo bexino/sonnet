@@ -1,0 +1,1 @@
+This project is based on the Claude Typora theme by https://github.com/blaxisomu/CLAUDE-Typora.
