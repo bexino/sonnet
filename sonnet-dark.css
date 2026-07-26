@@ -187,7 +187,7 @@ body {
 
 /* ---------- Typora ---------- */
 
-/* 隐藏符号标记 */
+/* 髫占酪隨ｦ蜿ｷ譬�ｮｰ */
 #write .md-pair-s.md-expand>.md-meta.md-before,
 #write .md-pair-s.md-expand>.md-meta.md-after {
     display: inline-block !important;
@@ -213,7 +213,7 @@ body {
     color: var(--font-color);
 }
 
-/* 暗色主题：粗体选中 */
+/* 證苓牡荳ｻ鬚假ｼ夂ｲ嶺ｽ馴我ｸｭ */
 #write strong::selection,
 #write strong *::selection {
     color: var(--dark-strong-color);
@@ -226,7 +226,7 @@ body {
     color: var(--code-font-color);
 }
 
-/* dark：代码块内选中 */
+/* dark�壻ｻ｣遐∝摎蜀�我ｸｭ */
 .md-fences .CodeMirror-selected,
 .CodeMirror-selected,
 .md-fences .CodeMirror-selectedtext,
@@ -234,7 +234,7 @@ body {
     background-color: #1e3a5f !important;
 }
 
-/* dark：源码模式下的选中 */
+/* dark�壽ｺ千�∵ｨ｡蠑丈ｸ狗噪騾我ｸｭ */
 .typora-sourceview-on .CodeMirror-selected,
 .typora-sourceview-on .CodeMirror-focused .CodeMirror-selected {
     background-color: var(--theme-selection-background) !important;
@@ -269,7 +269,7 @@ body {
     background-color: transparent;
 }
 
-/* 去除文件树的滑块 */
+/* 蜴ｻ髯､譁�ｻｶ譬醍噪貊大摎 */
 .stopselect.dropmenu.sidebar-menu.open.active-tab-files.use-file-tree-style ::-webkit-scrollbar-thumb {
     background-color: transparent !important;
     border: none !important;
@@ -280,12 +280,12 @@ body {
     height: 0 !important;
 }
 
-/* 隐藏拼写检查的滚动�?*/
+/* 髫占酪諡ｼ蜀呎｣譟･逧�ｻ壼勘譚?*/
 .ty-lang-list::-webkit-scrollbar {
     display: none !important;
 }
 
-/* ---------- 3. 右键菜单 ---------- */
+/* ---------- 3. 蜿ｳ髞ｮ闖懷黒 ---------- */
 
 #context-menu li[data-group="search"][data-key="search-default"] *,
 #context-menu li[data-group="search"][data-key="search-default"],
@@ -294,7 +294,7 @@ body {
     box-shadow: none !important;
 }
 
-/* 隐藏提示 */
+/* 髫占酪謠千､ｺ */
 .ty-tooltip.shown {
     display: none !important;
 }
@@ -316,7 +316,7 @@ body {
     background: none !important;
 }
 
-/* 仅为一级右键菜单添加微入场动效，避免影响二级菜�?*/
+/* 莉�ｸｺ荳郤ｧ蜿ｳ髞ｮ闖懷黒豺ｻ蜉�蠕ｮ蜈･蝨ｺ蜉ｨ謨茨ｼ碁∩蜈榊ｽｱ蜩堺ｺ檎ｺｧ闖懷�?*/
 #context-menu,
 #file-menu.show,
 #outline-menu.show {
@@ -339,7 +339,7 @@ body {
     }
 }
 
-/* 右下角弹出面板从底部微入�?*/
+/* 蜿ｳ荳玖ｧ貞ｼｹ蜃ｺ髱｢譚ｿ莉主ｺ暮Κ蠕ｮ蜈･蝨?*/
 .ty-show-spell-check #spell-check-panel,
 .ty-show-word-count #footer-word-count-info.dropdown-menu {
     transform-origin: bottom right;
@@ -385,12 +385,12 @@ body {
         0 1px 4px rgba(0, 0, 0, 0.18) !important;
 }
 
-/* 隐藏右键菜单栏的内容分割�?*/
+/* 髫占酪蜿ｳ髞ｮ闖懷黒譬冗噪蜀�ｮｹ蛻�牡郤?*/
 .dropdown-menu .divider {
     border-top: none !important;
 }
 
-/* 隐藏右键菜单的按钮边框阴�?*/
+/* 髫占酪蜿ｳ髞ｮ闖懷黒逧�潔髓ｮ霎ｹ譯�亢蠖?*/
 .menu-item-container a.menu-style-btn {
     box-shadow: none !important;
 }
@@ -399,7 +399,7 @@ body {
     color: var(--text-color);
 }
 
-/* 按钮 */
+/* 謖蛾聴 */
 .dropdown-menu .menu-style-btn .ty-icon {
     color: rgba(250, 249, 245, 0.72);
 }
@@ -412,7 +412,7 @@ body {
     color: rgba(250, 249, 245, 0.28);
 }
 
-/* ---------- 4. 编辑区底栏（侧边栏展开时） ---------- */
+/* ---------- 4. 郛冶ｾ大玄蠎墓�擾ｼ井ｾｧ霎ｹ譬丞ｱ募ｼ譌ｶ�� ---------- */
 
 .show-footer footer.ty-footer {
     border-top-width: 0 !important;
@@ -449,7 +449,7 @@ li.folder-menu-item.file-action-item.selected-folder-menu-item:hover>a {
     box-shadow: none;
 }
 
-/* ---------- 5. 查找与替�?---------- */
+/* ---------- 5. 譟･謇ｾ荳取崛謐?---------- */
 
 #md-searchpanel input {
     border-radius: 3px;
@@ -484,7 +484,7 @@ input:focus,
     z-index: 899 !important;
 }
 
-/* ---------- 6. macOS 交通灯避让 ---------- */
+/* ---------- 6. macOS 莠､騾夂�驕ｿ隶ｩ ---------- */
 
 .mac-os #typora-sidebar,
 .mac-seamless-mode #typora-sidebar {
@@ -550,7 +550,7 @@ input:focus,
    ========================================= */
 
 
-/* ---------- 1. 标题与文�?---------- */
+/* ---------- 1. 譬�｢倅ｸ取枚譛?---------- */
 
 #write h1 {
     font-size: 1.5rem;
@@ -598,13 +598,13 @@ input:focus,
     margin: 0;
 }
 
-/* dark；粗体改为颜色变�?*/
+/* dark�帷ｲ嶺ｽ捺隼荳ｺ鬚懆牡蜿伜�?*/
 #write strong {
     font-weight: var(--font-strong);
     color: var(--dark-strong-color);
 }
 
-/* 更改高亮区为下波浪线 */
+/* 譖ｴ謾ｹ鬮倅ｺｮ蛹ｺ荳ｺ荳区ｳ｢豬ｪ郤ｿ */
 span[md-inline="highlight"] mark,
 .md-pair-s mark {
     background-color: transparent !important;
@@ -613,13 +613,13 @@ span[md-inline="highlight"] mark,
     text-underline-offset: 3px;
 }
 
-/* 统一下划线颜�?*/
+/* 扈滉ｸ荳句�郤ｿ鬚懆�?*/
 span[md-inline="underline"] u {
     text-decoration: underline solid #D97757 !important;
     text-underline-offset: 3px;
 }
 
-/* ---------- 2. 有序列表、无序列�?---------- */
+/* ---------- 2. 譛牙ｺ丞�陦ｨ縲∵裏蠎丞�陦?---------- */
 
 .write ul,
 .write ol {
@@ -638,14 +638,14 @@ span[md-inline="underline"] u {
     padding: 0;
 }
 
-/* 最外层列表 */
+/* 譛螟門ｱょ�陦ｨ */
 .write>ul,
 .write>ol {
     padding: 0 2rem;
     margin: 0 0 0.75rem 0;
 }
 
-/* 相同列表嵌套 */
+/* 逶ｸ蜷悟�陦ｨ蠏悟･� */
 .write>ul ul,
 .write>ol ol {
     padding: 0 2rem 0.25rem 2rem;
@@ -653,7 +653,7 @@ span[md-inline="underline"] u {
     margin: 0.25rem 0 0 0;
 }
 
-/* 不同列表嵌套 */
+/* 荳榊酔蛻苓｡ｨ蠏悟･� */
 .write>ul ol,
 .write>ol ul {
     padding: 0 2rem 0 2rem;
@@ -661,18 +661,18 @@ span[md-inline="underline"] u {
     margin: 0.25rem 0 0 0;
 }
 
-/* 从第五层嵌套开始，取消所有列表（含纯同类嵌套与混合嵌套）的右边距 */
+/* 莉守ｬｬ莠泌ｱょｵ悟･怜ｼ蟋具ｼ悟叙豸域園譛牙�陦ｨ�亥性郤ｯ蜷檎ｱｻ蠏悟･嶺ｸ取ｷｷ蜷亥ｵ悟･暦ｼ臥噪蜿ｳ霎ｹ霍� */
 .write :is(ul, ol) :is(ul, ol) :is(ul, ol) :is(ul, ol) :is(ul, ol) {
     padding-right: 0 !important;
 }
 
-/* 将所有嵌套层级的普通无序列表修改为实心圆点，同时排除任务列�?*/
+/* 蟆�園譛牙ｵ悟･怜ｱらｺｧ逧�勸騾壽裏蠎丞�陦ｨ菫ｮ謾ｹ荳ｺ螳槫ｿ�怕轤ｹ�悟酔譌ｶ謗帝勁莉ｻ蜉｡蛻苓｡?*/
 #write ul:not(.task-list) {
     list-style-type: disc;
 }
 
 
-/* ---------- 3. 任务列表 ---------- */
+/* ---------- 3. 莉ｻ蜉｡蛻苓｡ｨ ---------- */
 
 #write li.md-task-list-item>input[type="checkbox"] {
     display: inline-block;
@@ -692,13 +692,13 @@ span[md-inline="underline"] u {
     cursor: pointer;
 }
 
-/* 选中状态下的背景色 */
+/* 騾我ｸｭ迥ｶ諤∽ｸ狗噪閭梧勹濶ｲ */
 #write li.md-task-list-item>input[type="checkbox"]:checked {
     background-color: var(--LOGO-color) !important;
     border-color: var(--LOGO-color) !important;
 }
 
-/* 精确复刻默认的勾�?(�? */
+/* 邊ｾ遑ｮ螟榊綾鮟倩ｮ､逧�鏡蜿?(竏? */
 #write li.md-task-list-item>input[type="checkbox"]:checked::after {
     content: "";
     position: absolute;
@@ -713,7 +713,7 @@ span[md-inline="underline"] u {
 }
 
 
-/* ---------- 4. 表格 ---------- */
+/* ---------- 4. 陦ｨ譬ｼ ---------- */
 
 .write .md-table-fig.table-figure {
     border: none;
@@ -740,7 +740,7 @@ span[md-inline="underline"] u {
     border-top: none;
     border-bottom: none;
     padding: 0.5rem 1rem 0.5rem 1px !important;
-    /* 让内�?height: 100% 生效 */
+    /* 隶ｩ蜀�ｱ?height: 100% 逕滓譜 */
     height: 1px;
 }
 
@@ -780,7 +780,7 @@ span[md-inline="underline"] u {
     border-bottom-color: var(--table-td-border) !important;
 }
 
-/*------ 表格工具�?------*/
+/*------ 陦ｨ譬ｼ蟾･蜈ｷ譬?------*/
 
 .ty-table-edit {
     max-width: 696px;
@@ -883,12 +883,12 @@ span[md-inline="underline"] u {
     border-top: var(--border-color-30) !important;
 }
 
-/* 调增删除按钮 */
+/* 隹�｢槫唖髯､謖蛾聴 */
 .ty-table-edit.md-table-edit.md-tooltip-remove {
     margin-top: -15px !important;
 }
 
-/* 去除表格下的标题的上边距 */
+/* 蜴ｻ髯､陦ｨ譬ｼ荳狗噪譬�｢倡噪荳願ｾｹ霍� */
 .md-table-fig.table-figure+h1,
 .md-table-fig.table-figure+h2,
 .md-table-fig.table-figure+h3,
@@ -896,7 +896,7 @@ span[md-inline="underline"] u {
     margin-top: 0 !important;
 }
 
-/* 取消表格行与列的拖拽�?*/
+/* 蜿匁ｶ郁｡ｨ譬ｼ陦御ｸ主�逧�許諡ｽ蛹?*/
 .typora-table-drag-area {
     display: none;
 }
@@ -904,7 +904,7 @@ span[md-inline="underline"] u {
 
 /* ---------- 5. Mermaid ---------- */
 
-/* Mermaid 编辑态：让下方预览面板参与文档流，避免覆盖后续正�?*/
+/* Mermaid 郛冶ｾ第�ｼ夊ｮｩ荳区婿鬚�ｧ磯擇譚ｿ蜿ゆｸ取枚譯｣豬�ｼ碁∩蜈崎ｦ�尠蜷守ｻｭ豁｣譁?*/
 .md-fences.md-fences-advanced.md-focus[lang="mermaid"] {
     display: block !important;
     height: auto !important;
@@ -940,26 +940,26 @@ span[md-inline="underline"] u {
 }
 
 
-/* ---------- 6. 代码�?---------- */
+/* ---------- 6. 莉｣遐∝�?---------- */
 
-/* 去除代码行背景的白色背景 */
+/* 蜴ｻ髯､莉｣遐∬｡瑚レ譎ｯ逧�區濶ｲ閭梧勹 */
 .CodeMirror-gutter-filler,
 .CodeMirror-scrollbar-filler,
 .CodeMirror.cm-s-inner.cm-s-null-scroll.CodeMirror-wrap {
     background-color: transparent;
 }
 
-/* 去除行号显示右侧的边�?*/
+/* 蜴ｻ髯､陦悟捷譏ｾ遉ｺ蜿ｳ萓ｧ逧�ｾｹ譯?*/
 .CodeMirror-gutters {
     border: none !important;
 }
 
-/* dark�?*/
+/* dark�?*/
 .CodeMirror div.CodeMirror-cursor {
     border-left-color: #D97757 !important;
 }
 
-/* 主容�?*/
+/* 荳ｻ螳ｹ蝎?*/
 .md-fences {
     margin: 0 !important;
     padding: 0.875rem;
@@ -971,7 +971,7 @@ span[md-inline="underline"] u {
 }
 
 
-/* 代码和代码行 */
+/* 莉｣遐∝柱莉｣遐∬｡� */
 .CodeMirror-lines {
     font-size: 0.875rem;
     font-weight: var(--font-weight);
@@ -986,7 +986,7 @@ span[md-inline="underline"] u {
 }
 
 
-/* 语法标签栏输入框 */
+/* 隸ｭ豕墓��ｭｾ譬剰ｾ灘�譯� */
 .ty-input.ty-input-after.ty-cm-lanutg-inp {
     border: none !important;
     padding: 0 !important;
@@ -1000,7 +1000,7 @@ span[md-inline="underline"] u {
 
 
 
-/* ----- 语法高亮映射配置 ----- */
+/* ----- 隸ｭ豕暮ｫ倅ｺｮ譏�蟆��鄂ｮ ----- */
 
 .md-fences .CodeMirror-linenumber,
 .md-fences .cm-comment,
@@ -1049,7 +1049,7 @@ span[md-inline="underline"] u {
     color: #eaecf0 !important;
 }
 
-/* ---------- 7. 行内代码和键盘键 ---------- */
+/* ---------- 7. 陦悟�莉｣遐∝柱髞ｮ逶倬醗 ---------- */
 
 code,
 tt {
@@ -1091,9 +1091,9 @@ kbd {
 }
 
 
-/* ---------- 8. 引用块与警告�?---------- */
+/* ---------- 8. 蠑慕畑蝮嶺ｸ手ｭｦ蜻頑｡?---------- */
 
-/* 引用�?*/
+/* 蠑慕畑蝮?*/
 
 blockquote {
     background-color: transparent;
@@ -1121,7 +1121,7 @@ p+blockquote+blockquote+blockquote {
     margin-left: 1rem;
 }
 
-/* 五种警告�?*/
+/* 莠皮ｧ崎ｭｦ蜻頑｡?*/
 
 #write .md-alert {
     --alert-accent: var(--LOGO-color);
@@ -1249,15 +1249,15 @@ p+blockquote+blockquote+blockquote {
 }
 
 
-/* ---------- 9. 注释、脚注、链接、hr ---------- */
+/* ---------- 9. 豕ｨ驥翫∬�豕ｨ縲�得謗･縲”r ---------- */
 
-/* 注释 */
+/* 豕ｨ驥� */
 
 .md-comment {
     color: var(--LOGO-color);
 }
 
-/* 脚注 */
+/* 閼壽ｳｨ */
 
 sup.md-footnote {
     display: inline-block;
@@ -1281,7 +1281,7 @@ sup.md-footnote {
         color 0.12s ease-out;
 }
 
-/* 脚注悬浮提示区和行内代码预览�?*/
+/* 閼壽ｳｨ謔ｬ豬ｮ謠千､ｺ蛹ｺ蜥瑚｡悟�莉｣遐�｢�ｧ亥�?*/
 .code-tooltip.md-hover-tip {
     padding: 0 !important;
     background: var(--bg-color) !important;
@@ -1321,7 +1321,7 @@ sup.md-footnote {
     }
 }
 
-/* 链接 */
+/* 體ｾ謗･ */
 
 a {
     color: var(--font-color);
@@ -1353,7 +1353,7 @@ hr {
     border-color: var(--hr-color);
 }
 
-/* 去除分割线下标题的上边距 */
+/* 蜴ｻ髯､蛻�牡郤ｿ荳区��｢倡噪荳願ｾｹ霍� */
 .md-hr.md-end-block+h1,
 .md-hr.md-end-block+h2,
 .md-hr.md-end-block+h3,
@@ -1362,19 +1362,19 @@ hr {
 }
 
 
-/* ---------- 10. 公式 ---------- */
+/* ---------- 10. 蜈ｬ蠑� ---------- */
 
-/* 隐藏右上角语义栏背景 */
+/* 髫占酪蜿ｳ荳願ｧ定ｯｭ荵画�剰レ譎ｯ */
 .md-rawblock-tooltip.md-rawblock-control {
     background-color: transparent !important;
 }
 
-/* 公式在编辑状态下的预览区下阴�?*/
+/* 蜈ｬ蠑丞惠郛冶ｾ醍憾諤∽ｸ狗噪鬚�ｧ亥玄荳矩亢蠖?*/
 .code-tooltip {
     box-shadow: 0 1px 1px 0 #d9775733;
 }
 
-/* 隐藏公式块的水平滚动�?*/
+/* 髫占酪蜈ｬ蠑丞摎逧�ｰｴ蟷ｳ貊壼勘譚?*/
 .md-math-container::-webkit-scrollbar,
 .md-math-block .MathJax::-webkit-scrollbar,
 mjx-container::-webkit-scrollbar {
@@ -1383,7 +1383,7 @@ mjx-container::-webkit-scrollbar {
     height: 0 !important;
 }
 
-/* 兼容处理，彻底隐藏滚动条样式 */
+/* 蜈ｼ螳ｹ螟�炊�悟ｽｻ蠎暮嚼阯乗ｻ壼勘譚｡譬ｷ蠑� */
 .md-math-container,
 .md-math-block .MathJax,
 mjx-container {
@@ -1397,12 +1397,12 @@ mjx-container {
     --select-text-font-color: var(--bg-color-light);
 }
 
-/* 鼠标悬停/经过公式块时的背景颜�?*/
+/* 鮠�譬�ぎ蛛�/扈剰ｿ��蠑丞摎譌ｶ逧�レ譎ｯ鬚懆�?*/
 .md-math-block:hover .md-math-container {
     background-color: var(--hover-color) !important;
 }
 
-/* 添加一点渐入渐出动�?*/
+/* 豺ｻ蜉�荳轤ｹ貂仙�貂仙�蜉ｨ逕?*/
 .md-math-block .md-math-container {
     transition: background-color 0.2s ease-in-out !important;
     border-radius: 8px;
@@ -1422,7 +1422,7 @@ mjx-container {
     margin: 0 !important;
 }
 
-/* dark：代码块编辑区内容行的嵌套背景层 */
+/* dark�壻ｻ｣遐∝摎郛冶ｾ大玄蜀�ｮｹ陦檎噪蠏悟･苓レ譎ｯ螻� */
 .md-math-block .CodeMirror-selected,
 .md-math-block .CodeMirror-selectedtext,
 .md-math-block .md-rawblock-input::selection {
@@ -1430,7 +1430,7 @@ mjx-container {
     color: var(--font-color) !important;
 }
 
-/* 鼠标点击进去编辑/选中公式块时编辑区的背景颜色 */
+/* 鮠�譬�せ蜃ｻ霑帛悉郛冶ｾ�/騾我ｸｭ蜈ｬ蠑丞摎譌ｶ郛冶ｾ大玄逧�レ譎ｯ鬚懆牡 */
 .md-rawblock-control.md-rawblock-before,
 .md-rawblock-control.md-rawblock-input.md-mathblock-input,
 .md-rawblock-control.md-rawblock-after {
@@ -1637,19 +1637,19 @@ mjx-container {
 
 
 /* =========================================
-   侧边�?   ========================================= */
+   萓ｧ霎ｹ譬?   ========================================= */
 
-/* 去除侧边栏拖拽区背景 */
+/* 蜴ｻ髯､萓ｧ霎ｹ譬乗許諡ｽ蛹ｺ閭梧勹 */
 #typora-sidebar-resizer:not(.dragging) .typora-sidebar-resizer-bar:hover {
     background: none !important;
 }
 
-/* 去底部的水平滚动�?*/
+/* 蜴ｻ蠎暮Κ逧�ｰｴ蟷ｳ貊壼勘譚?*/
 #typora-sidebar ::-webkit-scrollbar:horizontal {
     display: none !important;
 }
 
-/* 尺寸 */
+/* 蟆ｺ蟇ｸ */
 
 #typora-sidebar {
     margin-top: 15px;
@@ -1681,12 +1681,12 @@ mjx-container {
     box-shadow: var(--box-shadow-userinput-focus) !important;
 }
 
-/* 缩短 Typora 默认的超远隐藏位移，保留侧边栏收起动画�?*/
+/* 郛ｩ遏ｭ Typora 鮟倩ｮ､逧�ｶ�ｿ憺嚼阯丈ｽ咲ｧｻ�御ｿ晉蕗萓ｧ霎ｹ譬乗噺襍ｷ蜉ｨ逕ｻ縲?*/
 .typora-node:not(.pin-outline) #typora-sidebar {
     left: calc(0px - var(--sidebar-width) - 24px);
 }
 
-/* 收起动画期间隐藏侧边栏内部滚动条，避免状态类切换时闪现�?*/
+/* 謾ｶ襍ｷ蜉ｨ逕ｻ譛滄龍髫占酪萓ｧ霎ｹ譬丞�驛ｨ貊壼勘譚｡�碁∩蜈咲憾諤∫ｱｻ蛻�困譌ｶ髣ｪ邇ｰ縲?*/
 .typora-node:not(.pin-outline) #typora-sidebar ::-webkit-scrollbar-thumb:vertical,
 .typora-node:not(.pin-outline) #typora-sidebar ::-webkit-scrollbar-thumb:vertical:hover {
     background-color: transparent !important;
@@ -1697,9 +1697,9 @@ mjx-container {
     overflow-x: hidden !important;
 }
 
-/*---------- 底栏 ---------- */
+/*---------- 蠎墓�� ---------- */
 
-/* 去除底栏按钮的hover背景并开启源码模式等按钮的图标hover背景 */
+/* 蜴ｻ髯､蠎墓�乗潔髓ｮ逧�over閭梧勹蟷ｶ蠑蜷ｯ貅千�∵ｨ｡蠑冗ｭ画潔髓ｮ逧�崟譬㍗over閭梧勹 */
 .footer-item:hover,
 .sidebar-footer-item:hover {
     background: transparent;
@@ -1730,7 +1730,7 @@ mjx-container {
     background: transparent !important;
 }
 
-/* 去除侧边栏底栏的边框 */
+/* 蜴ｻ髯､萓ｧ霎ｹ譬丞ｺ墓�冗噪霎ｹ譯� */
 #ty-sidebar-footer {
     border: none;
     border-bottom-left-radius: 15px;
@@ -1789,9 +1789,9 @@ mjx-container {
     border-color: #dedcd126 !important;
 }
 
-/* ---------- 顶栏按钮 ---------- */
+/* ---------- 鬘ｶ譬乗潔髓ｮ ---------- */
 
-/* 隐藏横条 */
+/* 髫占酪讓ｪ譚｡ */
 .info-panel-tab-border {
     display: none;
 }
@@ -1902,7 +1902,7 @@ mjx-container {
     font-weight: 600;
 }
 
-/* ---------- 文件列表 ---------- */
+/* ---------- 譁�ｻｶ蛻苓｡ｨ ---------- */
 
 #typora-sidebar .file-list-item {
     transition: background-color 0.15s ease-out;
@@ -1950,9 +1950,9 @@ mjx-container {
     background-color: var(--LOGO-color) !important;
 }
 
-/* ---------- 文件�?---------- */
+/* ---------- 譁�ｻｶ譬?---------- */
 
-/* 消除文件树节点在点击时的默认虚线�?*/
+/* 豸磯勁譁�ｻｶ譬題鰍轤ｹ蝨ｨ轤ｹ蜃ｻ譌ｶ逧�ｻ倩ｮ､陌夂ｺｿ譯?*/
 .file-library-node:focus,
 .file-library-node:active,
 .file-node-content:focus,
@@ -1963,54 +1963,54 @@ mjx-container {
     box-shadow: none !important;
 }
 
-/* 文件树节点的间距、对齐优�?*/
-/* 从第三层级开始，调整最佳的上下级标题水平间�?*/
+/* 譁�ｻｶ譬題鰍轤ｹ逧�龍霍昴∝ｯｹ鮨蝉ｼ伜�?*/
+/* 莉守ｬｬ荳牙ｱらｺｧ蠑蟋具ｼ瑚ｰ�紛譛菴ｳ逧�ｸ贋ｸ狗ｺｧ譬�｢俶ｰｴ蟷ｳ髣ｴ霍?*/
 .file-tree-node>.file-node-children>.file-library-node>.file-node-children>.file-library-node {
     padding-left: 13px;
 }
 
-/* 用文件节点内间距对齐同级文件夹图标和文件图标 */
+/* 逕ｨ譁�ｻｶ闃らせ蜀�龍霍晏ｯｹ鮨仙酔郤ｧ譁�ｻｶ螟ｹ蝗ｾ譬�柱譁�ｻｶ蝗ｾ譬� */
 .file-library-node.file-tree-node.file-library-file-node {
     padding-left: 10.5px !important;
 }
 
-/* 对齐根目录下同级的文件夹标题和文件标�?*/
+/* 蟇ｹ鮨先�ｹ逶ｮ蠖穂ｸ句酔郤ｧ逧�枚莉ｶ螟ｹ譬�｢伜柱譁�ｻｶ譬�｢?*/
 #file-library-tree>.file-tree-node.file-node-root>.file-node-children>.file-library-node[data-is-directory="true"] {
     padding-left: 13.5px;
 }
 
-/* 用文件夹图标外间距对齐文件夹标题和文件标�?*/
+/* 逕ｨ譁�ｻｶ螟ｹ蝗ｾ譬�､夜龍霍晏ｯｹ鮨先枚莉ｶ螟ｹ譬�｢伜柱譁�ｻｶ譬�｢?*/
 .file-node-icon.fa.fa-folder {
     margin-right: 6.5px;
 }
 
-/* 隐藏md后缀 */
+/* 髫占酪md蜷守ｼ */
 .file-node-title-ext-part {
     display: none;
 }
 
-/* 文件夹空闲状态时的图�?*/
+/* 譁�ｻｶ螟ｹ遨ｺ髣ｲ迥ｶ諤∵慮逧�崟譬?*/
 .file-library-node[data-has-sub="false"][data-is-directory="true"]>.file-node-content>.file-node-icon.fa-folder:before {
     content: "\f114";
     opacity: 0.5;
 }
 
-/* 文件夹图�?*/
+/* 譁�ｻｶ螟ｹ蝗ｾ譬?*/
 .file-node-icon.fa-folder::before {
     content: "\f114";
 }
 
-/* 已展开的文件夹图标 */
+/* 蟾ｲ螻募ｼ逧�枚莉ｶ螟ｹ蝗ｾ譬� */
 .file-node-expanded>.file-node-content>.file-node-icon.fa-folder::before {
     content: "\f115";
 }
 
-/* 移除文件夹左边的小三�?*/
+/* 遘ｻ髯､譁�ｻｶ螟ｹ蟾ｦ霎ｹ逧�ｰ丈ｸ芽ｧ?*/
 .file-node-open-state {
     display: none !important;
 }
 
-/* ----- 节点展开动画 ----- */
+/* ----- 闃らせ螻募ｼ蜉ｨ逕ｻ ----- */
 
 @keyframes treeItemIn {
     0% {
@@ -2029,7 +2029,7 @@ mjx-container {
     }
 }
 
-/* 分配接踵延迟变量 */
+/* 蛻��謗･雕ｵ蟒ｶ霑溷序驥� */
 .file-tree-node>.file-node-children>.file-library-node {
     --tree-delay: 0s;
 }
@@ -2078,19 +2078,19 @@ mjx-container {
     --tree-delay: 0.42s;
 }
 
-/* 基础滑入动画（所有子节点默认生效�?*/
+/* 蝓ｺ遑貊大�蜉ｨ逕ｻ�域園譛牙ｭ占鰍轤ｹ鮟倩ｮ､逕滓譜�?*/
 .file-tree-node.file-node-expanded:not(.file-node-root)>.file-node-children>.file-library-node>.file-node-content> :is(.file-node-open-state, .file-node-icon, .file-node-title, .file-tree-rename-div) {
     animation: treeItemIn 0.35s ease-out both;
     animation-delay: var(--tree-delay);
 }
 
-/* 防止母节点首次展开时闪�?*/
+/* 髦ｲ豁｢豈崎鰍轤ｹ鬥匁ｬ｡螻募ｼ譌ｶ髣ｪ辜?*/
 .file-tree-node.file-node-expanded:not(.file-node-root)>.file-node-children>.file-library-node.file-node-expanded>.file-node-content> :is(.file-node-open-state, .file-node-icon, .file-node-title, .file-tree-rename-div) {
     animation-duration: 0.001s !important;
     animation-delay: 0s !important;
 }
 
-/* 防止其内部的子项在收起瞬间回�?*/
+/* 髦ｲ豁｢蜈ｶ蜀�Κ逧�ｭ宣｡ｹ蝨ｨ謾ｶ襍ｷ迸ｬ髣ｴ蝗槫ｼ?*/
 .file-tree-node.file-node-collapsed>.file-node-children:is(.file-node-content, .file-node-open-state, .file-node-icon, .file-node-title, .file-tree-rename-div),
 .file-tree-node:not(.file-node-root):not(.file-node-expanded)>.file-node-children:is(.file-node-content, .file-node-open-state, .file-node-icon, .file-node-title, .file-tree-rename-div) {
     animation: none !important;
@@ -2098,7 +2098,7 @@ mjx-container {
     opacity: 1 !important;
 }
 
-/* ----- 覆盖默认颜色变量 ----- */
+/* ----- 隕�尠鮟倩ｮ､鬚懆牡蜿倬㍼ ----- */
 #file-library {
     --control-text-color: var(--sidebar-font-color);
     --control-text-hover-color: var(--font-color);
@@ -2106,24 +2106,24 @@ mjx-container {
     --active-file-border-color: transparent;
 }
 
-/* 悬停时不显示节点背景，保留布局圆角以免覆盖默认命中�?*/
+/* 謔ｬ蛛懈慮荳肴仞遉ｺ闃らせ閭梧勹�御ｿ晉蕗蟶�ｱ蝨�ｧ剃ｻ･蜈崎ｦ�尠鮟倩ｮ､蜻ｽ荳ｭ螻?*/
 .file-tree-node:not(.file-node-root):not(.active):has(> .file-node-content:hover)>.file-node-background {
     background-color: transparent;
 }
 
-/* 点击后节点的背景色（不再使用单独背景层） */
+/* 轤ｹ蜃ｻ蜷手鰍轤ｹ逧�レ譎ｯ濶ｲ�井ｸ榊�菴ｿ逕ｨ蜊慕峡閭梧勹螻ゑｼ� */
 .file-tree-node.active>.file-node-background {
     /* background-color: var(--hover-color); */
     background-color: transparent;
 }
 
-/* 节点激活背景替换单独背景层 */
+/* 闃らせ豼豢ｻ閭梧勹譖ｿ謐｢蜊慕峡閭梧勹螻� */
 .file-library-node.file-library-file-node.active>.file-node-content {
     background: var(--hover-color);
     border-radius: 8px;
 }
 
-/* 文件树换�?*/
+/* 譁�ｻｶ譬第困陦?*/
 .file-library-node.file-library-file-node>.file-node-content>.file-node-title {
     min-width: 0;
     white-space: normal !important;
@@ -2131,7 +2131,7 @@ mjx-container {
     word-break: break-all;
 }
 
-/* 文字位移（使用独�?translate�?*/
+/* 譁�ｭ嶺ｽ咲ｧｻ�井ｽｿ逕ｨ迢ｬ遶?translate�?*/
 #file-library-tree .file-library-file-node>.file-node-content .file-node-icon,
 .file-node-content .file-node-title {
     transition: translate 0.25s ease-out;
@@ -2142,21 +2142,21 @@ mjx-container {
     translate: 4px 0;
 }
 
-/* 节点文字 */
+/* 闃らせ譁�ｭ� */
 .file-node-content {
     font-weight: var(--sidebar-font-weight);
     line-height: 22px;
     transition: color 0.15s ease-in-out;
 }
 
-/* 文件树节点激活项的字体颜�?*/
+/* 譁�ｻｶ譬題鰍轤ｹ豼豢ｻ鬘ｹ逧�ｭ嶺ｽ馴｢懆�?*/
 .file-library-node.file-tree-node.file-library-file-node.active .file-node-title {
     color: var(--font-color) !important;
 }
 
-/* 根节�?*/
+/* 譬ｹ闃ら�?*/
 
-/* 根节点字�?*/
+/* 譬ｹ闃らせ蟄嶺ｽ?*/
 #file-library-tree>div:first-child>div:nth-child(2) {
     font-size: 24px;
     font-family: var(--font-serif);
@@ -2173,7 +2173,7 @@ mjx-container {
     height: 44px;
 }
 
-/* --- 节点标题及图�?--- */
+/* --- 闃らせ譬�｢伜所蝗ｾ譬?--- */
 
 #file-library-tree>.file-tree-node.file-node-root>.file-node-children>.file-tree-node {
     --sonnet-folder-expanded-title-color: #D97757;
@@ -2183,7 +2183,7 @@ mjx-container {
     color: #D97757 !important;
 }
 
-/* �?2 层文件夹图标 */
+/* 隨?2 螻よ枚莉ｶ螟ｹ蝗ｾ譬� */
 #file-library-tree>.file-tree-node.file-node-root>.file-node-children>.file-tree-node>.file-node-children>.file-tree-node {
     --sonnet-folder-expanded-title-color: #C9826F;
 }
@@ -2192,7 +2192,7 @@ mjx-container {
     color: #C9826F !important;
 }
 
-/* �?3 层文件夹图标 */
+/* 隨?3 螻よ枚莉ｶ螟ｹ蝗ｾ譬� */
 #file-library-tree>.file-tree-node.file-node-root>.file-node-children>.file-tree-node>.file-node-children>.file-tree-node>.file-node-children>.file-tree-node {
     --sonnet-folder-expanded-title-color: #A98E82;
 }
@@ -2201,7 +2201,7 @@ mjx-container {
     color: #A98E82 !important;
 }
 
-/* �?4 层及更深文件夹图�?*/
+/* 隨?4 螻ょ所譖ｴ豺ｱ譁�ｻｶ螟ｹ蝗ｾ譬?*/
 #file-library-tree>.file-tree-node.file-node-root>.file-node-children>.file-tree-node>.file-node-children>.file-tree-node>.file-node-children>.file-tree-node>.file-node-children .file-tree-node {
     --sonnet-folder-expanded-title-color: #8F8A83;
 }
@@ -2228,9 +2228,9 @@ mjx-container {
     transform: translateY(0px);
 }
 
-/* 文件节点的图�?*/
+/* 譁�ｻｶ闃らせ逧�崟譬?*/
 
-/* 隐藏原有的默认图�?*/
+/* 髫占酪蜴滓怏逧�ｻ倩ｮ､蝗ｾ譬?*/
 #file-library-tree .file-library-file-node>.file-node-content .file-node-icon svg,
 #file-library-tree .file-library-file-node>.file-node-content .file-node-icon i,
 #file-library-tree .file-library-file-node>.file-node-content .file-node-icon::before {
@@ -2238,7 +2238,7 @@ mjx-container {
     content: none !important;
 }
 
-/* 改造原图标的包裹容�?*/
+/* 謾ｹ騾�蜴溷崟譬�噪蛹�｣ｹ螳ｹ蝎?*/
 #file-library-tree .file-library-file-node>.file-node-content .file-node-icon {
     position: relative;
     display: inline-flex;
@@ -2249,7 +2249,7 @@ mjx-container {
     margin-right: 4px;
 }
 
-/* 绘制实心圆点与朦胧光�?*/
+/* 扈伜宛螳槫ｿ�怕轤ｹ荳取惡閭ｧ蜈画�?*/
 #file-library-tree .file-library-file-node>.file-node-content .file-node-icon::after {
     content: '';
     display: block;
@@ -2259,9 +2259,9 @@ mjx-container {
     background-color: var(--LOGO-color);
 }
 
-/* ---------- 搜索 ---------- */
+/* ---------- 謳懃ｴ｢ ---------- */
 
-/* 搜索�?*/
+/* 謳懃ｴ｢譯?*/
 #file-library-search-input {
     border-color: #1f1e1d80;
     border-radius: 8px;
@@ -2277,7 +2277,7 @@ mjx-container {
     border-bottom: none;
 }
 
-/* 文件树搜索框开合动�?*/
+/* 譁�ｻｶ譬第頗邏｢譯�ｼ蜷亥勘逕?*/
 #typora-sidebar.active-tab-files.use-file-tree-style:not(.ty-on-search) #file-library-search {
     flex-grow: 0;
     flex-shrink: 0;
@@ -2324,7 +2324,7 @@ mjx-container {
     outline: none !important;
 }
 
-/* 搜索列表背景 */
+/* 謳懃ｴ｢蛻苓｡ｨ閭梧勹 */
 #typora-sidebar.ty-on-search #file-library-search {
     height: 100%;
     padding-top: 20px;
@@ -2357,19 +2357,19 @@ mjx-container {
     background-color: var(--file-search-list-bg-color);
 }
 
-/* 文字与边�?*/
+/* 譁�ｭ嶺ｸ手ｾｹ譯?*/
 .ty-search-item {
     color: var(--file-search-list-font-color);
     border-bottom: 0;
 }
 
-/* 匹配关键字高�?*/
+/* 蛹ｹ驟榊�髞ｮ蟄鈴ｫ倅ｺ?*/
 .ty-search-item-line .ty-file-search-match-text {
     background-color: transparent;
     color: var(--LOGO-color);
 }
 
-/* 找到文件数的背景 */
+/* 謇ｾ蛻ｰ譁�ｻｶ謨ｰ逧�レ譎ｯ */
 .file-list-item-count {
     background-color: var(--hover-color);
 }
@@ -2384,26 +2384,26 @@ mjx-container {
     color: inherit;
 }
 
-/* 点击�?*/
+/* 轤ｹ蜃ｻ蜷?*/
 .ty-search-item.active,
 .ty-search-item-line.active {
     background-color: var(--file-search-list-focus-bg-color);
 }
 
-/* 跳转的关键词高亮 */
+/* 霍ｳ霓ｬ逧��髞ｮ隸埼ｫ倅ｺｮ */
 .md-search-hit.md-search-select {
     background-color: var(--LOGO-color);
 }
 
-/* 创建或重命名节点时输入框、搜索框 */
+/* 蛻帛ｻｺ謌夜㍾蜻ｽ蜷崎鰍轤ｹ譌ｶ霎灘�譯�∵頗邏｢譯� */
 #typora-sidebar input {
     color: var(--sidebar-font-color);
 }
 
-/* ---------- 大纲 ---------- */
+/* ---------- 螟ｧ郤ｲ ---------- */
 
 #outline-content:empty::after {
-    content: "没有大纲哦~" !important;
+    content: "豐｡譛牙､ｧ郤ｲ蜩ｦ~" !important;
     display: block;
     padding: 16px 12px;
     color: rgba(250, 247, 240, 0.42);
@@ -2411,17 +2411,17 @@ mjx-container {
     text-align: center;
 }
 
-/* 去除 X 按钮 */
+/* 蜴ｻ髯､ X 謖蛾聴 */
 #close-outline-filter-btn {
     display: none !important;
 }
 
-/* 去除大纲节点激活时的字重变�?*/
+/* 蜴ｻ髯､螟ｧ郤ｲ闃らせ豼豢ｻ譌ｶ逧�ｭ鈴㍾蜿伜�?*/
 .pin-outline .outline-active {
     font-weight: var(--font-weight);
 }
 
-/* 固定大纲搜索框在侧边栏顶部，并保留开合动�?*/
+/* 蝗ｺ螳壼､ｧ郤ｲ謳懃ｴ｢譯�惠萓ｧ霎ｹ譬城｡ｶ驛ｨ�悟ｹｶ菫晉蕗蠑蜷亥勘逕?*/
 #typora-sidebar.active-tab-outline:not(.ty-on-search) #file-library-search {
     flex-grow: 0;
     flex-shrink: 0;
@@ -2484,12 +2484,12 @@ mjx-container {
     top: 10px;
 }
 
-/* 去除大纲内分割线的底部外边距 */
+/* 蜴ｻ髯､螟ｧ郤ｲ蜀��蜑ｲ郤ｿ逧�ｺ暮Κ螟冶ｾｹ霍� */
 #toc-dropmenu .divider {
     margin-bottom: 0;
 }
 
-/* ----- Windows 系统专属微调 ----- */
+/* ----- Windows 邉ｻ扈滉ｸ灘ｱ槫ｾｮ隹� ----- */
 .os-windows .ty-show-outline-filter #sidebar-content .sidebar-content-content {
     margin-top: -4px;
 }
@@ -2519,19 +2519,19 @@ mjx-container {
     padding-top: 15px;
 }
 
-/* 大纲列表项布局 */
+/* 螟ｧ郤ｲ蛻苓｡ｨ鬘ｹ蟶�ｱ */
 
 .outline-content li {
     position: relative;
     z-index: 30;
 }
 
-/* 顶级第一个节点的连接线起点归�?*/
+/* 鬘ｶ郤ｧ隨ｬ荳荳ｪ闃らせ逧�ｿ樊磁郤ｿ襍ｷ轤ｹ蠖帝�?*/
 .outline-content>li:first-of-type::before {
     top: 0;
 }
 
-/* 子菜单设�?*/
+/* 蟄占除蜊戊ｮｾ鄂?*/
 .outline-content li ul {
     position: relative;
     z-index: 48;
@@ -2539,12 +2539,12 @@ mjx-container {
     margin-top: 0 !important;
 }
 
-/* 不折叠大纲时，增加子节点的缩进量 */
+/* 荳肴釜蜿�螟ｧ郤ｲ譌ｶ�悟｢槫刈蟄占鰍轤ｹ逧�ｼｩ霑幃㍼ */
 .no-collapse-outline .outline-content li ul {
     margin-left: 21px;
 }
 
-/* 大纲单个条目样式 */
+/* 螟ｧ郤ｲ蜊穂ｸｪ譚｡逶ｮ譬ｷ蠑� */
 
 .outline-content li .outline-item {
     position: relative;
@@ -2557,7 +2557,7 @@ mjx-container {
     padding: 0 0 0 4px;
 }
 
-/* 展开/折叠的小三角图标 */
+/* 螻募ｼ/謚伜匠逧�ｰ丈ｸ芽ｧ貞崟譬� */
 .outline-item>.outline-expander {
     display: block;
     float: left;
@@ -2576,7 +2576,7 @@ mjx-container {
     color: var(--LOGO-color);
 }
 
-/* 标题文字标签 */
+/* 譬�｢俶枚蟄玲��ｭｾ */
 .outline-content li .outline-label {
     display: inline-block;
     box-sizing: border-box;
@@ -2594,30 +2594,33 @@ mjx-container {
     text-decoration: none;
 }
 
-/* 针对无子节点的独立条目，取消左内边距 */
+/* 髓亥ｯｹ譌�蟄占鰍轤ｹ逧�峡遶区擅逶ｮ�悟叙豸亥ｷｦ蜀�ｾｹ霍� */
 .outline-item-single .outline-label,
 .outline-item-single.outline-item-open .outline-label,
 .no-collapse-outline .outline-content li .outline-label {
     padding-left: 0 !important;
 }
 
-/* 节点处于展开状态时，去除了原本会导致文字向右位移和挤压的缩进微�?*/
+/* 闃らせ螟�ｺ主ｱ募ｼ迥ｶ諤∵慮�悟悉髯､莠�次譛ｬ莨壼ｯｼ閾ｴ譁�ｭ怜髄蜿ｳ菴咲ｧｻ蜥梧研蜴狗噪郛ｩ霑帛ｾｮ隹?*/
 
-/* 非折叠模式下，展开节点的标题文字缩进归�?*/
+/* 髱樊釜蜿�讓｡蠑丈ｸ具ｼ悟ｱ募ｼ闃らせ逧���｢俶枚蟄礼ｼｩ霑帛ｽ帝�?*/
 .no-collapse-outline .outline-item-open>.outline-item>.outline-label {
     padding-left: 0 !important;
 }
 
-/* --- �?TOC 圆点结构绘制 --- */
+/* --- 莉?TOC 蝨�せ扈捺桷扈伜宛 --- */
 
-/* 统一所有大纲条目的文字边距与间距，使圆点和对齐更一致，间距稍宽 */
+/* 扈滉ｸ謇譛牙､ｧ郤ｲ譚｡逶ｮ逧�枚蟄苓ｾｹ霍昜ｸ朱龍霍晢ｼ御ｽｿ蝨�せ蜥悟ｯｹ鮨先峩荳閾ｴ�碁龍霍晉ｨ榊ｮｽ */
 .outline-content li .outline-label {
-    padding: 8px 6px 8px 10px !important; /* 上下间距�?6px 增至 8px，左边距缩减�?10px 使圆点和文字更紧�?*/
-    font-size: 15px !important;           /* 字体稍大，原本为 14px */
-    line-height: 1.3 !important;          /* 间距稍微加宽 */
+    padding: 8px 6px 8px 10px !important;
+    /* 荳贋ｸ矩龍霍昜ｻ?6px 蠅櫁� 8px�悟ｷｦ霎ｹ霍晉ｼｩ蜃剰�?10px 菴ｿ蝨�せ蜥梧枚蟄玲峩邏ｧ蟇?*/
+    font-size: 15px !important;
+    /* 蟄嶺ｽ鍋ｨ榊､ｧ�悟次譛ｬ荳ｺ 14px */
+    line-height: 1.3 !important;
+    /* 髣ｴ霍晉ｨ榊ｾｮ蜉�螳ｽ */
 }
 
-/* 统一重写无子节点条目的边距，使文字整体往左偏移并更紧�?*/
+/* 扈滉ｸ驥榊�譌�蟄占鰍轤ｹ譚｡逶ｮ逧�ｾｹ霍晢ｼ御ｽｿ譁�ｭ玲紛菴灘ｾ蟾ｦ蛛冗ｧｻ蟷ｶ譖ｴ邏ｧ蟇?*/
 .outline-item-single .outline-label,
 .outline-item-single.outline-item-open .outline-label,
 .no-collapse-outline .outline-content li .outline-label,
@@ -2625,42 +2628,48 @@ mjx-container {
     padding-left: 10px !important;
 }
 
-/* 整体条目微调，往左边偏移（缩�?margin-left�?*/
+/* 謨ｴ菴捺擅逶ｮ蠕ｮ隹�ｼ悟ｾ蟾ｦ霎ｹ蛛冗ｧｻ�育ｼｩ蜃?margin-left�?*/
 .outline-content li .outline-item {
-    margin-left: 2px !important; /* �?7px 减至 2px，使大纲项整体往左移，展示更多内�?*/
+    margin-left: 2px !important;
+    /* 莉?7px 蜃剰� 2px�御ｽｿ螟ｧ郤ｲ鬘ｹ謨ｴ菴灘ｾ蟾ｦ遘ｻ�悟ｱ慕､ｺ譖ｴ螟壼�螳?*/
 }
 
-/* 所有大纲项的前缀小圆点，距离文字更近 */
+/* 謇譛牙､ｧ郤ｲ鬘ｹ逧�燕郛蟆丞怕轤ｹ�瑚ｷ晉ｦｻ譁�ｭ玲峩霑� */
 .outline-content li .outline-item::before {
     content: '';
     position: absolute;
     z-index: 38;
-    left: -1px; /* 原本�?2px，向左移 3px 靠近左边界，并且文字 padding-left 改为 10px 后圆点和文字极近 */
+    left: -1px;
+    /* 蜴滓悽譏?2px�悟髄蟾ｦ遘ｻ 3px 髱�霑大ｷｦ霎ｹ逡鯉ｼ悟ｹｶ荳疲枚蟄� padding-left 謾ｹ荳ｺ 10px 蜷主怕轤ｹ蜥梧枚蟄玲栫霑� */
     top: 50%;
     transform: translateY(-50%);
     width: 4px;
     height: 4px;
     background: var(--LOGO-color);
-    opacity: 0.35; /* �?TOC 次级圆点半透明 */
+    opacity: 0.35;
+    /* 莉?TOC 谺｡郤ｧ蝨�せ蜊企乗� */
     border-radius: 50%;
 }
 
-/* 顶级大纲项（对应文档中的一、二级标题）圆点颜色加深，并且文字加�?*/
-.outline-content > li > .outline-item::before {
-    opacity: 1; /* 顶级高亮不透明 */
+/* 鬘ｶ郤ｧ螟ｧ郤ｲ鬘ｹ�亥ｯｹ蠎疲枚譯｣荳ｭ逧�ｸ縲∽ｺ檎ｺｧ譬�｢假ｼ牙怕轤ｹ鬚懆牡蜉�豺ｱ�悟ｹｶ荳疲枚蟄怜刈邊?*/
+.outline-content>li>.outline-item::before {
+    opacity: 1;
+    /* 鬘ｶ郤ｧ鬮倅ｺｮ荳埼乗� */
     width: 5px;
     height: 5px;
-    left: -1.5px; /* 居中微调 */
+    left: -1.5px;
+    /* 螻�ｸｭ蠕ｮ隹� */
 }
 
-.outline-content > li > .outline-item .outline-label {
+.outline-content>li>.outline-item .outline-label {
     font-weight: bold;
 }
 
-/* 定位展开/折叠的小三角图标至更靠左，避免与向左移的圆点和文字重�?*/
+/* 螳壻ｽ榊ｱ募ｼ/謚伜匠逧�ｰ丈ｸ芽ｧ貞崟譬��譖ｴ髱�蟾ｦ�碁∩蜈堺ｸ主髄蟾ｦ遘ｻ逧�怕轤ｹ蜥梧枚蟄鈴㍾蜿?*/
 .outline-item>.outline-expander {
     position: absolute !important;
-    left: -11px !important; /* �?-8px 向左移动�?-11px，防止与 left: -1px 的圆点冲�?*/
+    left: -11px !important;
+    /* 莉?-8px 蜷大ｷｦ遘ｻ蜉ｨ蛻?-11px�碁亟豁｢荳� left: -1px 逧�怕轤ｹ蜀ｲ遯?*/
     top: 50% !important;
     transform: translateY(-50%) !important;
     margin: 0 !important;
@@ -2677,16 +2686,19 @@ mjx-container {
     color: var(--LOGO-color);
 }
 
-/* 优化大纲子节点层级缩进，减少缩进宽度以防显示内容被挤�?*/
+/* 莨伜喧螟ｧ郤ｲ蟄占鰍轤ｹ螻らｺｧ郛ｩ霑幢ｼ悟㍼蟆醍ｼｩ霑帛ｮｽ蠎ｦ莉･髦ｲ譏ｾ遉ｺ蜀�ｮｹ陲ｫ謖､蜴?*/
 .outline-content li ul {
-    margin-left: 12px !important; /* �?18px 减至 12px */
-}
-.no-collapse-outline .outline-content li ul {
-    margin-left: 14px !important; /* �?21px 减至 14px */
+    margin-left: 12px !important;
+    /* 莉?18px 蜃剰� 12px */
 }
 
-/* --- 悬停与激活状态下的动态效�?--- */
-/* (移除了导致文字挤压和连接线错位的激活状态偏�?hack) */
+.no-collapse-outline .outline-content li ul {
+    margin-left: 14px !important;
+    /* 莉?21px 蜃剰� 14px */
+}
+
+/* --- 謔ｬ蛛應ｸ取ｿ豢ｻ迥ｶ諤∽ｸ狗噪蜉ｨ諤∵譜譫?--- */
+/* (遘ｻ髯､莠�ｯｼ閾ｴ譁�ｭ玲研蜴句柱霑樊磁郤ｿ髞吩ｽ咲噪豼豢ｻ迥ｶ諤∝￥遘?hack) */
 
 .outline-item:hover,
 .outline-item:hover>.outline-label {
@@ -2715,26 +2727,26 @@ mjx-container {
     color: var(--dark-LOGO-color) !important;
 }
 
-/* --- 过滤/搜索大纲时的表现 --- */
+/* --- 霑�ｻ､/謳懃ｴ｢螟ｧ郤ｲ譌ｶ逧�｡ｨ邇ｰ --- */
 
-/* 隐藏所有树状结构连�?*/
+/* 髫占酪謇譛画�醍憾扈捺桷霑樒ｺ?*/
 .ty-on-outline-filter .outline-content .outline-item::before,
 .ty-on-outline-filter .outline-content .outline-item::after {
     display: none;
 }
 
-/* 取消原有的层级缩�?*/
+/* 蜿匁ｶ亥次譛臥噪螻らｺｧ郛ｩ霑?*/
 .ty-on-outline-filter .outline-content>li>ul,
 .ty-on-outline-filter .outline-content .outline-item {
     margin-left: 0;
 }
 
-/* 针对搜索命中类的节点容器适配 */
+/* 髓亥ｯｹ謳懃ｴ｢蜻ｽ荳ｭ邀ｻ逧�鰍轤ｹ螳ｹ蝎ｨ騾る� */
 .outline-content:has(.ty-outline-hit) {
     padding-left: 14px;
 }
 
-/* 搜索状态下强制隐藏所有树状连�?*/
+/* 謳懃ｴ｢迥ｶ諤∽ｸ句ｼｺ蛻ｶ髫占酪謇譛画�醍憾霑樒ｺ?*/
 .outline-content li:has(.ty-outline-hit) .outline-item::before,
 .outline-content li:has(.ty-outline-hit) .outline-item::after,
 .outline-content li:has(.ty-outline-hit) .outline-children::before,
@@ -2743,14 +2755,14 @@ mjx-container {
     display: none;
 }
 
-/* 搜索状态下重置命中项的内外边距 */
+/* 謳懃ｴ｢迥ｶ諤∽ｸ矩㍾鄂ｮ蜻ｽ荳ｭ鬘ｹ逧��螟冶ｾｹ霍� */
 .outline-content li:has(.ty-outline-hit) .outline-item {
     margin-left: 1px !important;
     width: calc(100% - 1px);
     padding-left: 0 !important;
 }
 
-/* 搜索命中项的标题文字内边距加�?*/
+/* 謳懃ｴ｢蜻ｽ荳ｭ鬘ｹ逧���｢俶枚蟄怜�霎ｹ霍晏刈螳?*/
 .outline-content li:has(.ty-outline-hit) .outline-item>.outline-label {
     padding: 8px 10px !important;
 }
@@ -2980,8 +2992,8 @@ mjx-container {
 }
 
 .unibody-window #megamenu-menu-header-title::before {
-    content: "返回" !important;
-    font-size: 16px !important;
+    content: "←" !important;
+    font-size: 26px !important;
 }
 
 .unibody-window #megamenu-back-btn {
@@ -3650,7 +3662,7 @@ mjx-container {
    Plugin
    ========================================= */
 
-/*1. 插件按钮*/
+/*1. 謠剃ｻｶ謖蛾聴*/
 #plugin-action-buttons .action-item {
     color: var(--sidebar-font-color) !important;
     background: rgba(250, 249, 245, 0.06) !important;
@@ -3689,14 +3701,14 @@ mjx-container {
     transition-duration: 0.05s !important;
 }
 
-/*2. 文件树计�?/
+/*2. 譁�ｻｶ譬題ｮ｡謨?/
 .file-node-content:after {
     background: none !important;
     border: none !important;
     color: #8F8C93 !important;
 }
 
-/*3. 设置界面配色*/
+/*3. 隶ｾ鄂ｮ逡碁擇驟崎牡*/
 .plugin-preferences-mask {
     --pref-bg-dialog: #1e1e20 !important;
     --pref-bg-sidebar: #252528 !important;
@@ -3708,7 +3720,7 @@ mjx-container {
     --pref-text-sub: var(--sidebar-font-color) !important;
 }
 
-/*4. 插件右键菜单*/
+/*4. 謠剃ｻｶ蜿ｳ髞ｮ闖懷黒*/
 .plugin-common-menu {
     min-width: 196px;
     padding: 6px !important;
@@ -3758,7 +3770,7 @@ mjx-container {
     transform: none !important;
 }
 
-/*5. 顶部标签�?/
+/*5. 鬘ｶ驛ｨ譬�ｭｾ譬?/
 #plugin-window-tab {
     left: 0 !important;
     color: var(--sidebar-font-color);
@@ -3969,21 +3981,21 @@ body.pin-outline #plugin-window-tab .tab-bar {
 
 
 /* =========================================
-   源码模式
+   貅千�∵ｨ｡蠑�
    ========================================= */
 
-/* dark：降低源码模式普通段落字体亮�?*/
+/* dark�夐剄菴取ｺ千�∵ｨ｡蠑乗勸騾壽ｮｵ關ｽ蟄嶺ｽ謎ｺｮ蠎?*/
 .typora-sourceview-on .CodeMirror-lines {
     color: rgba(250, 249, 245, 0.65) !important;
 }
 
-/* 关闭源码模式按钮的背�?*/
+/* 蜈ｳ髣ｭ貅千�∵ｨ｡蠑乗潔髓ｮ逧�レ譎?*/
 .typora-sourceview-on #toggle-sourceview-btn {
     background: transparent !important;
     color: var(--dark-LOGO-color) !important;
 }
 
-/* 源码模式激活行背景 */
+/* 貅千�∵ｨ｡蠑乗ｿ豢ｻ陦瑚レ譎ｯ */
 .typora-sourceview-on .CodeMirror-activeline-background {
     background-color: rgba(142, 164, 255, 0.16) !important;
     animation: source-active-line-fade-in 90ms ease-out;
@@ -4027,7 +4039,7 @@ body.pin-outline #plugin-window-tab .tab-bar {
 
 
 /* =========================================
-   Dark：专注模�?   ========================================= */
+   Dark�壻ｸ捺ｳｨ讓｡蠑?   ========================================= */
 
 /* Non-focused blocks */
 .on-focus-mode .md-end-block:not(.md-focus):not(.md-focus-container) * {
