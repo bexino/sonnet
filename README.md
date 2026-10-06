@@ -42,6 +42,8 @@ A Typora theme inspired by Anthropic's design philosophy.
 
 Apache-2.0 license
 
+---
+
 # 简体中文
 
 一款受 Anthropic 设计理念启发的 Typora 主题。
