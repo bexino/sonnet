@@ -10,7 +10,7 @@ A Typora theme inspired by Anthropic's design philosophy.
 
 ## Quick Start
 
-**Step 1:** Download the latest release package.
+**Step 1:** [Download the latest release package.](https://github.com/bexino/sonnet/archive/refs/heads/main.zip)
 
 **Step 2:** Navigate to **Preferences → Appearance** and click **"Open Theme Folder"** to reveal the Typora themes directory.
 
@@ -56,7 +56,7 @@ Apache-2.0 license
 
 ## 快速开始
 
-**第一步：** 下载最新发行包。
+**第一步：** [下载最新发行包。](https://github.com/bexino/sonnet/archive/refs/heads/main.zip)
 
 **第二步：** 进入 **偏好设置 → 外观**，点击 **“打开主题文件夹”**，即可显示 Typora 的主题目录。
 
