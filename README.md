@@ -34,6 +34,54 @@ A Typora theme inspired by Anthropic's design philosophy.
 
 **Step 5:** Once restarted, go to the **Themes** menu and select your desired Sonnet theme.
 
-## Notes
+## Acknowledgements
 
 - This project is based on https://github.com/blaxisomu/typora_claude.
+
+## License
+
+Apache-2.0 license
+
+# 简体中文
+
+一款受 Anthropic 设计理念启发的 Typora 主题。
+
+## 更新内容
+
+- **侧边栏大纲：** 优化了大纲面板的视觉层级与间距。
+
+- **字体排版：** 优先采用系统原生字体：
+
+  - 英文衬线体：Georgia，
+
+  - 英文无衬线体：Segoe UI / San Francisco。
+
+  （注：如需将任何宣传截图用于推广用途，建议先行取得版权许可。）
+
+- **任务列表：** 为待办事项增加了颜色区分，以提升浏览效率。
+
+- **菜单控件：** 精简了菜单按钮的行为逻辑，使操作体验更加直观。
+
+## 安装方法
+
+**第一步：** 下载最新发行包。
+
+**第二步：** 进入 **偏好设置 → 外观**，点击 **“打开主题文件夹”**，即可显示 Typora 的主题目录。
+
+**第三步：** 将以下内容复制到主题文件夹中：
+
+- `sonnet-fonts` —— *（可选，除非你需要简体中文字体；若不需要，仅使用 CSS 文件即可。）*
+- `sonnet-dark.css`
+- `sonnet.css`
+
+**第四步：** 重启 Typora，使更改生效。
+
+**第五步：** 重启后，进入 **主题** 菜单，选择你想要的 Sonnet 主题。
+
+## 鸣谢
+
+- 本项目基于 https://github.com/blaxisomu/typora_claude。
+
+## 许可证
+
+Apache-2.0 license
